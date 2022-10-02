@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 21.75rem;
+    border: none;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.authorImage {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.authorPicture {
+    width: 100%;
+    height: 100%;
+}
+
+.authorText .post {
+    position: relative;
+    bottom: 1.5rem;
+    font-size: 13px;
+}
+
+.link {
+    color: #4e25ff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.link:hover {
+    color: #4621e5;
+}

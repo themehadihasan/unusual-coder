@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contactImage {
+    width: 710px;
+    height: 225px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contactImage img {
+    border-radius: 5px;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.btn-brand {
+    background-color: #4e25ff;
+    color: white;
+}
+
+
+.btn-brand:hover {
+    background-color: #4621e5;
+}

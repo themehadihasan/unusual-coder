@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    align-items: center;
+}
+
+.image {
+    width: 710px;
+    height: 389px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image img {
+    border-radius: 5px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #4e25ff;
+}
+
+.card-link:hover {
+    color: #4621e5;
+}
+
