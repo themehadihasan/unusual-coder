@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import HeroBlogImg from '../images/hero-blog-img.png';
 import BlogCards from '../blogs/blogCards/BlogCards';
+import { Link } from "react-router-dom";
 
 function Home() {
 //I'm here to solve your problems
@@ -16,7 +17,7 @@ function Home() {
                     <div class="card-body">
                         <h4 class="card-title">I'm here to listen, understand and solve your problems</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#link" class="card-link">Know More</a>
+                        <Link className="card-link" to="/aboutus">Know More</Link>
                     </div>
                 </div>
             </div>

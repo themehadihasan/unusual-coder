@@ -1,23 +1,12 @@
 import React from "react";
-import HeroBlogImg02 from '../images/hero-blog-img-02.png';
+import HeroSectionAll from "../aboutus/HeroSectionAll";
 import './ConnectWithMe.css'
 
 function ConnectWithMe() {
 
     return (
         <div className="container-lg">
-            <div className="row mb-5">
-                <div className="contactImage">
-                    <img src={HeroBlogImg02} alt="heroBlog" />
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Connect With Me</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <hr />
+            <HeroSectionAll heading="Connect With Me" description="Some quick example text to build on the card title and make up the bulk of the card's content."/>
             <div className="row text-center">
                 <div class="card-body">
                     <h4 class="card-title mt-1">If you have any query feel free to connect with me</h4>
@@ -28,11 +17,11 @@ function ConnectWithMe() {
                 <div class="col-lg-8">
                     <form action="" class="row g-3">
                         <div class="form-group col-lg-6">
-                        <input type="text" id="first-name" name="first-name" class="form-control" autocomplete="off" placeholder="First Name" required />
+                        <input type="text" id="first-name" name="first-name" class="form-control" autocomplete="off" placeholder="Full Name" required />
                         </div>
 
                         <div class="form-group col-lg-6">
-                        <input type="text" id="last-name" name="last-name" class="form-control" autocomplete="off" placeholder="Last Name" />
+                        <input type="text" id="last-name" name="last-name" class="form-control" autocomplete="off" placeholder="City" />
                         </div>
 
                         <div class="form-group col-lg-6">
@@ -44,11 +33,11 @@ function ConnectWithMe() {
                         </div>
 
                         <div class="form-group col-lg-12">
-                        <textarea name="message" id="message" row="5" class="form-control" autocomplete="off" placeholder="Message (required)" required></textarea>
+                        <textarea name="message" id="message" row="5" class="form-control" autocomplete="off" placeholder="Message (Query)" required></textarea>
                         </div>
 
                         <div class="form-group col-lg-12">
-                        <button type="submit" class="btn btn-brand ps-2 pe-2">SUBMIT</button>
+                        <button type="submit" class="button pt-1 pb-1 ps-3 pe-3">Submit</button>
                         </div>
                     </form>
                 </div>

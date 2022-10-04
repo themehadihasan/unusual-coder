@@ -9,6 +9,7 @@ import ConnectWithMe from './components/connectwithme/ConnectWithMe';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
+import DemoBlog from './components/blogs/blogsContent/DemoBlog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/videos" element={<Videos />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/connectwithme" element={<ConnectWithMe />} />
+            <Route path="/demoblog" element={<DemoBlog />} />
           </Routes>
         <Footer />
       </BrowserRouter>

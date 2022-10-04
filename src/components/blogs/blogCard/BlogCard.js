@@ -1,5 +1,6 @@
 import React from "react";
 import '../blogCard/BlogCard.css';
+import { Link } from "react-router-dom";
 
 function BlogCard(props) {
 
@@ -9,7 +10,7 @@ function BlogCard(props) {
                 <img src={props.image} className="card-img-top" alt="blogImage" />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
-                    <p className="card-text">{props.description}<a href={props.link} className="link ms-2">More</a></p>
+                    <p className="card-text">{props.description}<Link className="link ms-2" to={props.link}>More...</Link></p>
                     <div className="author">
                         <div className="authorImage">
                             <img className="authorPicture" src="https://wallpapercave.com/wp/wp2234604.jpg" alt="authorImage" />

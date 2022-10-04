@@ -15,16 +15,15 @@
     border-radius: 5px;
 }
 
-.btn {
-    font-weight: 600;
-}
-
-.btn-brand {
+.button {
     background-color: #4e25ff;
     color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
 }
 
 
-.btn-brand:hover {
+.button:hover {
     background-color: #4621e5;
 }
